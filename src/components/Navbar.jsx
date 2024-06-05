@@ -1,4 +1,4 @@
-import logo from "/assets/vc.png";
+import logo from "/assets/kevinRushLogo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
@@ -12,7 +12,13 @@ const Navbar = () => {
       </div>
       <div className="mx-8 flex items-center justify-center gap-4 text-2xl">
         <FaLinkedin />
-        <FaGithub />
+        <a
+          href="https://github.com/ViNciHsu/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub />
+        </a>
         <FaSquareXTwitter />
         <FaInstagram />
       </div>
